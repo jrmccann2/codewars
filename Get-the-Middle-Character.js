@@ -18,3 +18,21 @@
 // A word (string) of length 0 < str < 1000 (In javascript you may get slightly more than 1000 in some test cases due to an error in the
 // test cases). You do not need to test for this. This is only here to tell you that you do not need to worry about your solution timing out.
 
+// My Solution:
+
+function getMiddle(s){
+  let arr = s.split('')
+  console.log(arr)
+  console.log(arr.length)
+  if(arr.length%2===0){
+    let shifts = ((arr.length/2) - 1)
+    let pops = arr.length-shifts
+    console.log(pops)
+    return arr.slice(shifts, pops).join('')
+  } else {
+    let shifts = (Math.floor(arr.length/2))
+    let pops = arr.length-shifts
+    return arr.slice(shifts, pops).join('')
+  }
+}
+
