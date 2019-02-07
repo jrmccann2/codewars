@@ -36,3 +36,8 @@ function getMiddle(s){
   }
 }
 
+// This was one of my first ever katas on CodeWars. At the time I had no idea that I could treat a string in many of the same ways you can 
+// treat an array. Here I split the string at each character, creating an array of many inidividual characters. I then test if the length 
+// is odd or even. If it is even, I divide the length by two and subtract 1 to get the index at which to start my .slice and then I
+// subtract that number from the length to get the index at which to end my .slice. I then join the characters back together and return.
+// My methodology for the case of an odd length is similar but the start index is determined by length/2 rounded down.
