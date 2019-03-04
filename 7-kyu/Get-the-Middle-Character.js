@@ -41,3 +41,5 @@ function getMiddle(s){
 // is odd or even. If it is even, I divide the length by two and subtract 1 to get the index at which to start my .slice and then I
 // subtract that number from the length to get the index at which to end my .slice. I then join the characters back together and return.
 // My methodology for the case of an odd length is similar but the start index is determined by length/2 rounded down.
+
+// See the full kata at https://www.codewars.com/kata/get-the-middle-character/train/javascript

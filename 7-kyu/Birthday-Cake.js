@@ -1,0 +1,1 @@
+// See the full kata at https://www.codewars.com/kata/birthday-i-cake/train/javascript
